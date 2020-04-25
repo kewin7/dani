@@ -4,7 +4,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Dotenv\Dotenv;
 
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/assets/assets.php';
+require __DIR__ . '/subloader/loader.php';
 
 defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 defined('ROOT_PATH') or define('ROOT_PATH', __DIR__);
